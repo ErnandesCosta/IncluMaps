@@ -1,53 +1,77 @@
-IncluMaps
-IncluMaps é um aplicativo mobile acessível, desenvolvido com Expo e React Native, focado em facilitar a navegação e inclusão de pessoas em eventos e espaços diversos.
+# IncluMaps
 
-🚀 Como começar
-Instale as dependências:
+IncluMaps é um aplicativo móvel acessível, desenvolvido com Expo e React Native, focado em facilitar a navegação e promover a inclusão de pessoas em eventos e espaços diversos.
 
-bash
+---
+
+## 🚀 Começando
+
+Siga os passos abaixo para rodar o projeto localmente.
+
+1. Instale as dependências:
+
+```bash
 npm install
-Inicie o app:
+```
 
-bash
+2. Inicie o app (Modo desenvolvimento):
+
+```bash
 npx expo start
-Após iniciar, você verá um QR code no terminal – escaneie com o Expo Go, ou use um emulador Android/iOS.
+```
 
-📦 Estrutura do Projeto
-app/ — diretório principal para arquivos do app
+Após iniciar, um QR code aparecerá no terminal — escaneie com o Expo Go no dispositivo ou use um emulador Android/iOS.
 
-assets/ — imagens, ícones e recursos visuais
+---
 
-screens/ — telas do projeto (ex: Login, Mapa, Cadastro)
+## 📦 Estrutura do projeto
 
-components/ — componentes compartilhados/reutilizáveis
+- app/ — diretório principal para arquivos do app
+- assets/ — imagens, ícones e recursos visuais
+- screens/ — telas do projeto (ex.: Login, Mapa, Cadastro)
+- components/ — componentes compartilhados / reutilizáveis
+- navigation/ — configuração das rotas entre telas
 
-navigation/ — configuração das rotas entre telas
+---
 
-🗺️ Principais Funcionalidades
-Mapa acessível e interativo
+## 🗺️ Principais funcionalidades
 
-Cadastro/perfil de usuários e eventos
+- Mapa acessível e interativo
+- Cadastro e perfil de usuários e eventos
+- Busca por locais inclusivos
+- Perfis diferentes: colaborador e usuário / organizador de evento
 
-Busca de locais inclusivos
+---
 
-Perfis diferentes: colaborador e usuário/event owner
+## 🔄 Reiniciar / Começar do zero
 
-🔄 Começando do zero
-Se quiser um projeto limpo, use:
+Se quiser um projeto limpo para começar do zero, execute:
 
-bash
+```bash
 npm run reset-project
-Isso irá mover o exemplo para app-example e criar uma pastas app/ em branco para desenvolvimento.
+```
 
-📖 Links úteis
-Documentação Expo
+Esse comando moverá o exemplo para `app-example` e criará uma pasta `app/` em branco pronta para desenvolvimento.
 
-Tutorial Expo
+---
 
-Expo Community Discord
+## 📖 Links úteis
 
-📝 Contribuindo
-Sugestões e melhorias são ​​bem-vindas! Abra uma issue ou mande um pull request.
+- Documentação do Expo: https://docs.expo.dev/
+- Tutorial do Expo: https://docs.expo.dev/tutorial/
+- Expo Community (Discord): https://discord.gg/expo
 
-📢 Licença
-Projeto sob licença MIT.
+---
+
+## 📝 Contribuindo
+
+Contribuições são bem-vindas! Para colaborar:
+- Abra uma issue sugerindo a melhoria ou relatando um bug.
+- Faça um fork, crie uma branch com a sua alteração e abra um Pull Request com uma descrição clara das mudanças.
+- Siga as boas práticas de commits e mantenha os PRs pequenos e focados.
+
+---
+
+## 📢 Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
