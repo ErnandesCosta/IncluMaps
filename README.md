@@ -1,50 +1,53 @@
-# Welcome to your Expo app 👋
+IncluMaps
+IncluMaps é um aplicativo mobile acessível, desenvolvido com Expo e React Native, focado em facilitar a navegação e inclusão de pessoas em eventos e espaços diversos.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+🚀 Como começar
+Instale as dependências:
 
-## Get started
+bash
+npm install
+Inicie o app:
 
-1. Install dependencies
+bash
+npx expo start
+Após iniciar, você verá um QR code no terminal – escaneie com o Expo Go, ou use um emulador Android/iOS.
 
-   ```bash
-   npm install
-   ```
+📦 Estrutura do Projeto
+app/ — diretório principal para arquivos do app
 
-2. Start the app
+assets/ — imagens, ícones e recursos visuais
 
-   ```bash
-   npx expo start
-   ```
+screens/ — telas do projeto (ex: Login, Mapa, Cadastro)
 
-In the output, you'll find options to open the app in a
+components/ — componentes compartilhados/reutilizáveis
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+navigation/ — configuração das rotas entre telas
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🗺️ Principais Funcionalidades
+Mapa acessível e interativo
 
-## Get a fresh project
+Cadastro/perfil de usuários e eventos
 
-When you're ready, run:
+Busca de locais inclusivos
 
-```bash
+Perfis diferentes: colaborador e usuário/event owner
+
+🔄 Começando do zero
+Se quiser um projeto limpo, use:
+
+bash
 npm run reset-project
-```
+Isso irá mover o exemplo para app-example e criar uma pastas app/ em branco para desenvolvimento.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+📖 Links úteis
+Documentação Expo
 
-## Learn more
+Tutorial Expo
 
-To learn more about developing your project with Expo, look at the following resources:
+Expo Community Discord
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📝 Contribuindo
+Sugestões e melhorias são ​​bem-vindas! Abra uma issue ou mande um pull request.
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📢 Licença
+Projeto sob licença MIT.
